@@ -1,0 +1,103 @@
+@font-face {
+	font-family: 'main';
+	src: url('../fonts/Cookie-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'logo';
+	src: url('../fonts/Dosis-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'list';
+	src: url('../fonts/Kanit-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: 'main';
+	font-size: 20px;
+	background-color: #FFFFAD;
+	font-color: #92D5E6;
+	margin: 0px;
+	
+}
+
+.navbar {
+	margin-bottom: 0px;
+}
+
+.navbar-brand{
+	font-family: 'logo';
+	font-size: 40px;
+	display: inline-block;
+	letter-spacing: 2px;
+	
+}
+
+.col-lg-3 ul li{
+	list-style: none;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+
+	
+}
+.col-lg-6 ul li{
+	list-style: none;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	
+}
+
+.col-lg-6 ul li ul li{
+	list-style: none;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+	font-size: 5px;
+}
+
+.recent {
+ 	display: flex;
+  	justify-content: center;
+}
+
+.col-lg-2 ul li{
+	list-style: none;
+	margin-right: 0px;
+}
+
+
+#avi{
+	border: 2px #92D5E6 solid;
+	max-width:50% ;
+	max-height:50% ;
+}
+
+#splash{
+	text-align: top;
+	height: 100%;
+	width: 100%;
+	padding: 70px 0px 0px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+#registration{
+
+	font-family: 'logo';
+	font-size: 40px;
+	display: inline-block;
+	letter-spacing: 2px;
+
+}
+
