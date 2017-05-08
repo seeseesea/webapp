@@ -81,6 +81,12 @@
 	max-height:50% ;
 }
 
+#restaurant{
+	border: 2px #92D5E6 solid;
+	max-width:75% ;
+	max-height:75% ;
+}
+
 #splash{
 	text-align: top;
 	height: 100%;
@@ -94,8 +100,8 @@
 
 #registration{
 
-	font-family: 'logo';
-	font-size: 40px;
+	font-family: 'list';
+	font-size: 15px;
 	display: inline-block;
 	letter-spacing: 2px;
 
